@@ -11,9 +11,9 @@ public class CarTester {
 		System.out.println(n[2]);
 		
 		Car[] cars = new Car[3];
-		cars[0] = new Car("TOYOTA", "ALTIS", 1800);
-		cars[1] = new Car("HONDA", "ACCORD", 2000);
-		cars[2] = new Car("TOYOTA", "Wish", 2000);
+		cars[0].id = 405;
+		cars[1].id = 400;
+		cars[2].id = 403;
 		System.out.println(cars[0].name);
 		
 		int i=0;
@@ -21,6 +21,11 @@ public class CarTester {
 			System.out.println(cars[i].name);
 		}
 		System.out.println(i);
+		
+		class AA{
+			
+		}
+		AA a = new AA();
 	}
 
 }
