@@ -1,6 +1,7 @@
 package oo.test;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 import oo.abstraction.*;
 
@@ -9,7 +10,10 @@ public class Tester {
 	public static void main (String[] args){
 		Car c = new Car("XX", "AA", 2000);
 		ArrayList<String> a = new ArrayList();
-		//List¥i©ñ²§½è¸ê®ÆHeterogeneous
+		//Listå¯æ”¾ç•°è³ªè³‡æ–™Heterogeneous
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("è«‹è¼¸å…¥æ‚¨çš„è™Ÿç¢¼:");
+		
 		
 		//String[] numbers = {"331","821", "886", "554"};
 		a.add("321");
@@ -25,7 +29,7 @@ public class Tester {
 		String data = a.get(3);
 		//int n = (int)a.get(4);
 		
-		//¥»¦¸¶}¼ú¸¹¬°:331 821 886 554Åı¨Ï¥ÎªÌ¿é¤Jµo²¼¸¹½X(ªø«×¤£­­)¡A§PÂ_§À¼Æ3¦ì¬O§_¤¤¼ú
+		//æœ¬æ¬¡é–‹çè™Ÿç‚º:331 821 886 554è®“ä½¿ç”¨è€…è¼¸å…¥ç™¼ç¥¨è™Ÿç¢¼(é•·åº¦ä¸é™)ï¼Œåˆ¤æ–·å°¾æ•¸3ä½æ˜¯å¦ä¸­ç
 	}
 	
 }
