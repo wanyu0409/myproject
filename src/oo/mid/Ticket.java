@@ -14,13 +14,13 @@ public class Ticket {
 	public float getPrice(){
 		return price;
 	}
-	public void setId(int arg){
-		id = arg;
+	public void setId(int id){
+		this.id = id;
 	}
-	public void setName(String arg){
-		name = arg;
+	public void setName(String name){
+		this.name = name;
 	}
-	public void setPrice(float arg){
-		price = arg;
+	public void setPrice(float price){
+		this.price = price;
 	}
 }

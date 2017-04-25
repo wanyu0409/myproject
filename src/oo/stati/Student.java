@@ -2,12 +2,23 @@ package oo.stati;
 
 public class Student {
 	//屬性(Fields, Instance Variable實例變數)
-	int english;
+	private int english;
 	int math;
 	int chinese;
 	static int pass = 60;
 	//static類別變數，應用上用得到才用
+	static{
+		System.out.println("STATIC!!");
+		System.out.println(english);
+		//因為在static區塊是物件還沒生成就執行，所以english不能再static區塊執行
+		System.out.println(pass);
+		//一切都還沒發生就有資料了 所以在static區塊就能使用他
+		
+		//在static類別裡不能使用this	
+	}
+	
 	public Student(int english, int math, int chinese){
+		super();
 		this.english = english;
 		this.math = math;
 		this.chinese = chinese;
