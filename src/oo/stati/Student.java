@@ -1,12 +1,12 @@
 package oo.stati;
 
-class Student {
+public class Student {
 	//屬性(Fields, Instance Variable實例變數)
 	int english;
 	int math;
 	int chinese;
 	static int pass = 60;
-	Student(){
+	public Student(){
 		//不寫public、private、protected只能在這個package裡使用
 	}
 	//static類別變數，應用上用得到才用
@@ -27,9 +27,10 @@ class Student {
 		this.chinese = chinese;
 	}
 	public void print(){
-		System.out.println(getScore(english)+"\t"+getScore(math)+"\t"+getScore(chinese));
+		System.out.println(getScore(english)+"\t"
+							+getScore(math)+"\t"+getScore(chinese));
 	}
-	private String getScore(int score){
+	protected String getScore(int score){
 		if(score<pass){
 			return String.valueOf(score)+"*";
 		}else{
