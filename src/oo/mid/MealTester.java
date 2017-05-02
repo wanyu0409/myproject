@@ -3,14 +3,14 @@ package oo.mid;
 public class MealTester {
 
 	public static void main(String[] args) {
-		Meal m1 = new Meal("¤jіБ§J", "ҐiјЦ","Б¦±ш", 1, 105, 105);
-		Meal m2 = new Meal("іБ­»Вы", "і·єС","Б¦±ш", 2, 95, 190);
-		Meal m3 = new Meal("іБ­»іЅ", "ВfВc¬хЇщ", "Б¦±ш", 1, 115, 115);
+		Meal m1 = new Meal("е¤§йєҐе…‹", "еЏЇжЁ‚","и–Їжўќ", 1, 105, 105);
+		Meal m2 = new Meal("йєҐй¦™й›ћ", "й›Єзў§","и–Їжўќ", 2, 95, 190);
+		Meal m3 = new Meal("йєҐй¦™й­љ", "жЄёжЄ¬зґ…иЊ¶", "и–Їжўќ", 1, 115, 115);
 		
 		Meal[] meals = new Meal[3];
-		meals[0]= new Meal("¤jіБ§J", "ҐiјЦ","Б¦±ш", 1, 105, 105);
-		meals[1]= new Meal("іБ­»Вы", "і·єС","Б¦±ш", 2, 95, 190);
-		meals[2]= new Meal("іБ­»іЅ", "ВfВc¬хЇщ", "Б¦±ш", 1, 115, 115);
+		meals[0]= new Meal("е¤§йєҐе…‹", "еЏЇжЁ‚","и–Їжўќ", 1, 105, 105);
+		meals[1]= new Meal("йєҐй¦™й›ћ", "й›Єзў§","и–Їжўќ", 2, 95, 190);
+		meals[2]= new Meal("йєҐй¦™й­љ", "жЄёжЄ¬зґ…иЊ¶", "и–Їжўќ", 1, 115, 115);
 		
 		int i = 0;
 		for(i=0; i<3; i++){
