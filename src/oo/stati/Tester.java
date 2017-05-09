@@ -2,9 +2,11 @@ package oo.stati;
 
 import java.util.ArrayList;
 
+
 public class Tester {
 
 	public static void main(String[] args) {
+		//所有類別的最上層類別是java.lang.Object
 		System.out.println(Student.pass);
 		Student stu1 = new Student(58, 98, 66);
 		Student stu2 = new Student(67, 56, 77);
@@ -30,6 +32,8 @@ public class Tester {
 			stu.print();
 			
 		}
+		Student stu = new Student();
+		System.out.println(stu);
 	}
 
 }
