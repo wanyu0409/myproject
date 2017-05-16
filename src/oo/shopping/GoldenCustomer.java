@@ -1,12 +1,16 @@
 package oo.shopping;
 
-public class GoldenCustomer extends Customer {
-	public void amount (int price){
-		amount = price * 9 / 10;
-		System.out.println("金級會員應付金額:" + amount);
+public class GoldenCustomer extends SliverCustomer {
+	float back = 0.05f;
+	
+	public GoldenCustomer(int amount){
+		super(amount);
 	}
-	public void back (int price){
-		back = price * 5 / 100;
-		System.out.println("金級會員所得回饋金:" + back);
+
+	@Override
+	public void print() {
+		System.out.println(amount+"\t"+(amount*discount)+"\t"+(amount*back));
 	}
+
+	
 }
