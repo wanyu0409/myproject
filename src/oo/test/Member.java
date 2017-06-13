@@ -5,8 +5,12 @@ public class Member {
 	private int age;
 	String name;
 	
-	public Member(){
+	public Member(String name){
 		System.out.println("member construstor");
+		this.name = name;
+	}
+	public Member(){
+		
 	}
 	//只能在這個package使用
 	void setAge(int age){
